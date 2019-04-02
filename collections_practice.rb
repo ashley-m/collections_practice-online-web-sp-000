@@ -19,6 +19,6 @@ end
 def swap_elements(collection)
   y = collection[1]
   collection[1] = collection[2]
-  collection[2] = y 
+  collection[2] = y
   return collection
 end
