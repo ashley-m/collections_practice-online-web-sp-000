@@ -33,3 +33,7 @@ def kesha_maker(collection)
   end
   return collection
 end
+
+def find_a(collection)
+  collection.select {|w| w[0]=='a'}
+end
