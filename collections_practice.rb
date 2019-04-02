@@ -37,3 +37,11 @@ end
 def find_a(collection)
   collection.select {|w| w[0]=='a'}
 end
+
+def sum_array(collection)
+  sum = 0
+  collection.each do |x|
+    sum += x
+  end
+  return sum
+end
