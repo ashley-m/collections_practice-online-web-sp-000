@@ -5,8 +5,8 @@ def sort_array_asc(collection)
 end
 
 def sort_array_desc(collection)
-  sorted = sort_array_asc(collection).reverse
-  return sorted
+  collection.sort do |a, b|
+    b <=> a
 end
 
 def sort_array_char_count(collection)
