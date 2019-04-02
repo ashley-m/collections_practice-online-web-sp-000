@@ -45,3 +45,12 @@ def sum_array(collection)
   end
   return sum
 end
+
+def add_s(collection)
+  collection.each_with_index do |x, i|
+    if i != 1
+      x += 's'
+    end
+  end
+  return collection
+end
