@@ -22,3 +22,7 @@ def swap_elements(collection)
   collection[2] = y
   return collection
 end
+
+def reverse_array(collection)
+  collection.reverse
+end
