@@ -1,9 +1,7 @@
 require 'pry'
 
 def sort_array_asc(collection)
-  sorted = []
-  sorted = collection.sort
-  return sorted
+  collection.sort
 end
 
 def sort_array_desc(collection)
