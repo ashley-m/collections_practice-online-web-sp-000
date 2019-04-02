@@ -47,10 +47,13 @@ def sum_array(collection)
 end
 
 def add_s(collection)
+  s = []
   collection.each_with_index do |x, i|
     if i != 1
-      x += 's'
+      s[i] = x + 's'
+    else
+      s[i] = x
     end
   end
-  return collection
+  return s
 end
