@@ -11,8 +11,8 @@ def sort_array_desc(collection)
 end
 
 def sort_array_char_count(collection)
-  collection.sort do 
-    {|a, b| 
+  collection.sort do
+    {|a, b|
       a.length <=> b.length
     }
     return collection
