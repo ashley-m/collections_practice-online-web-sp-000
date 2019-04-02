@@ -1,3 +1,4 @@
+require pry
 
 def sort_array_asc(collection)
   sorted = []
@@ -13,6 +14,7 @@ end
 def sort_array_char_count(collection)
   collection.sort do |a, b|
       a.length <=> b.length
+      binding.pry
     end
     return collection
 end
