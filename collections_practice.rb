@@ -26,3 +26,10 @@ end
 def reverse_array(collection)
   collection.reverse
 end
+
+def kesha_maker(collection)
+  collection.each do |e|
+    e[2] = '$'
+  end
+  return collection
+end
